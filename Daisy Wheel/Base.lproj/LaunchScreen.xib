@@ -22,7 +22,7 @@
                 <constraint firstItem="t1D-Kw-gG0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SE1-KB-lQL"/>
                 <constraint firstAttribute="trailing" secondItem="t1D-Kw-gG0" secondAttribute="trailing" id="dMA-TF-GBB"/>
             </constraints>
-            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="419" y="435"/>
         </view>

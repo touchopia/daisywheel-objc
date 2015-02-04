@@ -32,6 +32,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Wheel" image="icon-wheel-on" id="acW-dT-cKf"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -64,6 +65,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Camera" image="icon-camera-off" id="cPa-gy-q4n"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,6 +75,7 @@
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
@@ -117,6 +120,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Video" image="icon-video-off" id="gtR-Tr-GVI"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wAA-dc-sE5" sceneMemberID="firstResponder"/>
             </objects>
@@ -149,6 +153,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Reminder" image="icon-reminder-off" id="zUZ-f9-7Ls"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q6t-qh-Leq" sceneMemberID="firstResponder"/>
             </objects>
