@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		5A333D6273F4B6B900F69360 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2887143DDBE69102F364C910 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6C67B9E11A82696D0041C099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C67B9D81A82696D0041C099 /* AppDelegate.m */; };
-		6C67B9E21A82696D0041C099 /* CameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C67B9DA1A82696D0041C099 /* CameraVC.m */; };
-		6C67B9E31A82696D0041C099 /* ReminderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C67B9DC1A82696D0041C099 /* ReminderVC.m */; };
 		6C67B9E41A82696D0041C099 /* VideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C67B9DE1A82696D0041C099 /* VideoVC.m */; };
 		6C67B9E51A82696D0041C099 /* WheelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C67B9E01A82696D0041C099 /* WheelVC.m */; };
+		6C6F9C8D1A8566D400EFF087 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F9C881A8566D400EFF087 /* AVFoundation.framework */; };
+		6C6F9C8E1A8566D400EFF087 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F9C891A8566D400EFF087 /* CoreMedia.framework */; };
+		6C6F9C8F1A8566D400EFF087 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F9C8A1A8566D400EFF087 /* CoreVideo.framework */; };
+		6C6F9C901A8566D400EFF087 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F9C8B1A8566D400EFF087 /* OpenGLES.framework */; };
+		6C6F9C911A8566D400EFF087 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F9C8C1A8566D400EFF087 /* QuartzCore.framework */; };
+		6C6F9C9A1A8567E000EFF087 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F9C921A8567E000EFF087 /* CameraViewController.m */; };
+		6C6F9C9B1A8567E000EFF087 /* CustomCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F9C941A8567E000EFF087 /* CustomCamera.m */; };
+		6C6F9C9C1A8567E000EFF087 /* ReminderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F9C961A8567E000EFF087 /* ReminderTableViewController.m */; };
+		6C6F9C9D1A8567E000EFF087 /* ReminderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F9C971A8567E000EFF087 /* ReminderTableViewCell.m */; };
 		6C704D361A8262CB0075BA1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C704D351A8262CB0075BA1E /* main.m */; };
 		6C704D421A8262CB0075BA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C704D401A8262CB0075BA1E /* Main.storyboard */; };
 		6C704D441A8262CB0075BA1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C704D431A8262CB0075BA1E /* Images.xcassets */; };
@@ -23,14 +30,23 @@
 		2887143DDBE69102F364C910 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C67B9D71A82696D0041C099 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C67B9D81A82696D0041C099 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6C67B9D91A82696D0041C099 /* CameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraVC.h; sourceTree = "<group>"; };
-		6C67B9DA1A82696D0041C099 /* CameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraVC.m; sourceTree = "<group>"; };
-		6C67B9DB1A82696D0041C099 /* ReminderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderVC.h; sourceTree = "<group>"; };
-		6C67B9DC1A82696D0041C099 /* ReminderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderVC.m; sourceTree = "<group>"; };
 		6C67B9DD1A82696D0041C099 /* VideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoVC.h; sourceTree = "<group>"; };
 		6C67B9DE1A82696D0041C099 /* VideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoVC.m; sourceTree = "<group>"; };
 		6C67B9DF1A82696D0041C099 /* WheelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelVC.h; sourceTree = "<group>"; };
 		6C67B9E01A82696D0041C099 /* WheelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelVC.m; sourceTree = "<group>"; };
+		6C6F9C881A8566D400EFF087 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6C6F9C891A8566D400EFF087 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6C6F9C8A1A8566D400EFF087 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6C6F9C8B1A8566D400EFF087 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6C6F9C8C1A8566D400EFF087 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6C6F9C921A8567E000EFF087 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		6C6F9C931A8567E000EFF087 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		6C6F9C941A8567E000EFF087 /* CustomCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCamera.m; sourceTree = "<group>"; };
+		6C6F9C951A8567E000EFF087 /* CustomCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCamera.h; sourceTree = "<group>"; };
+		6C6F9C961A8567E000EFF087 /* ReminderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderTableViewController.m; sourceTree = "<group>"; };
+		6C6F9C971A8567E000EFF087 /* ReminderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderTableViewCell.m; sourceTree = "<group>"; };
+		6C6F9C981A8567E000EFF087 /* ReminderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderTableViewCell.h; sourceTree = "<group>"; };
+		6C6F9C991A8567E000EFF087 /* ReminderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderTableViewController.h; sourceTree = "<group>"; };
 		6C704D301A8262CB0075BA1E /* Daisy Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daisy Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C704D341A8262CB0075BA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C704D351A8262CB0075BA1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +62,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6F9C8D1A8566D400EFF087 /* AVFoundation.framework in Frameworks */,
+				6C6F9C8E1A8566D400EFF087 /* CoreMedia.framework in Frameworks */,
+				6C6F9C8F1A8566D400EFF087 /* CoreVideo.framework in Frameworks */,
+				6C6F9C901A8566D400EFF087 /* OpenGLES.framework in Frameworks */,
+				6C6F9C911A8566D400EFF087 /* QuartzCore.framework in Frameworks */,
 				5A333D6273F4B6B900F69360 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +77,11 @@
 		0D69BB1A7FB07D8C2048F9C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C6F9C881A8566D400EFF087 /* AVFoundation.framework */,
+				6C6F9C891A8566D400EFF087 /* CoreMedia.framework */,
+				6C6F9C8A1A8566D400EFF087 /* CoreVideo.framework */,
+				6C6F9C8B1A8566D400EFF087 /* OpenGLES.framework */,
+				6C6F9C8C1A8566D400EFF087 /* QuartzCore.framework */,
 				2887143DDBE69102F364C910 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -92,10 +118,14 @@
 		6C67B9E71A82698C0041C099 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6C67B9D91A82696D0041C099 /* CameraVC.h */,
-				6C67B9DA1A82696D0041C099 /* CameraVC.m */,
-				6C67B9DB1A82696D0041C099 /* ReminderVC.h */,
-				6C67B9DC1A82696D0041C099 /* ReminderVC.m */,
+				6C6F9C921A8567E000EFF087 /* CameraViewController.m */,
+				6C6F9C931A8567E000EFF087 /* CameraViewController.h */,
+				6C6F9C941A8567E000EFF087 /* CustomCamera.m */,
+				6C6F9C951A8567E000EFF087 /* CustomCamera.h */,
+				6C6F9C971A8567E000EFF087 /* ReminderTableViewCell.m */,
+				6C6F9C981A8567E000EFF087 /* ReminderTableViewCell.h */,
+				6C6F9C991A8567E000EFF087 /* ReminderTableViewController.h */,
+				6C6F9C961A8567E000EFF087 /* ReminderTableViewController.m */,
 				6C67B9DD1A82696D0041C099 /* VideoVC.h */,
 				6C67B9DE1A82696D0041C099 /* VideoVC.m */,
 				6C67B9DF1A82696D0041C099 /* WheelVC.h */,
@@ -184,6 +214,7 @@
 				TargetAttributes = {
 					6C704D2F1A8262CB0075BA1E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 86Z976V88Y;
 					};
 				};
 			};
@@ -271,12 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6F9C9A1A8567E000EFF087 /* CameraViewController.m in Sources */,
 				6C67B9E51A82696D0041C099 /* WheelVC.m in Sources */,
 				6C67B9E11A82696D0041C099 /* AppDelegate.m in Sources */,
-				6C67B9E21A82696D0041C099 /* CameraVC.m in Sources */,
-				6C67B9E31A82696D0041C099 /* ReminderVC.m in Sources */,
+				6C6F9C9D1A8567E000EFF087 /* ReminderTableViewCell.m in Sources */,
+				6C6F9C9C1A8567E000EFF087 /* ReminderTableViewController.m in Sources */,
 				6C704D361A8262CB0075BA1E /* main.m in Sources */,
 				6C67B9E41A82696D0041C099 /* VideoVC.m in Sources */,
+				6C6F9C9B1A8567E000EFF087 /* CustomCamera.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +352,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Phillip Wright (HR5NYWX4QZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Phillip Wright (HR5NYWX4QZ)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -360,7 +394,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Phillip Wright (HR5NYWX4QZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Phillip Wright (HR5NYWX4QZ)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -383,7 +418,7 @@
 			baseConfigurationReference = C05F8FE0ABDDEFCABEB0DA7E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Daisy Wheel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -396,7 +431,7 @@
 			baseConfigurationReference = B5330C0DC3F5ED6BCD6349AB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Daisy Wheel/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
