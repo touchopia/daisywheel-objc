@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreVideo/CoreVideo.h>
-#import <CoreMedia/CoreMedia.h>
-#import <SystemConfiguration/SystemConfiguration.h>
+#import "JSImagePickerViewController.h"
 
 @interface CameraViewController : UIViewController
+
+- (IBAction)openCamera:(id)sender;
+
+@property (nonatomic, weak) IBOutlet UIButton *cameraButton;
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
 
 @end

@@ -49,24 +49,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gec-P7-Xw4">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="275"/>
+                                </variation>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koo-rb-rjM">
                                 <rect key="frame" x="231" y="257" width="138" height="86"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Camera">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="131" y="319" width="138" height="86"/>
+                                </variation>
                                 <connections>
                                     <action selector="openCamera:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Ndd-Dv-Nuv"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Gec-P7-Xw4"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Gec-P7-Xw4"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Camera" image="icon-camera-off" id="cPa-gy-q4n"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="cameraButton" destination="Koo-rb-rjM" id="scl-hd-lIl"/>
+                        <outlet property="imageView" destination="Gec-P7-Xw4" id="aj1-v2-dBC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46" y="476"/>
+            <point key="canvasLocation" x="22.5" y="437"/>
         </scene>
         <!--Reminder Table View Controller-->
         <scene sceneID="YmF-pl-b4v">

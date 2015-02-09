@@ -1,16 +1,10 @@
 PODS:
-  - DBCamera (2.3.10):
-    - GPUImage (~> 0.1)
-  - GPUImage (0.1.6)
   - Spring (1.0.0)
 
 DEPENDENCIES:
-  - DBCamera
   - Spring
 
 SPEC CHECKSUMS:
-  DBCamera: 831e958699d8f728a23d6620415e2b6dcbc090d5
-  GPUImage: cecb0830bb9428f50192042e3c7b53810f51388e
   Spring: 55af6bbb867ee5198e54c0980e07a697ee66ef7c
 
 COCOAPODS: 0.36.0.beta.2
