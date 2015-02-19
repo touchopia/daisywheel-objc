@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5A333D6273F4B6B900F69360 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2887143DDBE69102F364C910 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6C13DBD61A96543D00A83545 /* ANSpinWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C13DBD41A96543D00A83545 /* ANSpinWheel.m */; };
+		6C13DBD91A9654B200A83545 /* WheelImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C13DBD81A9654B200A83545 /* WheelImageView.m */; };
 		6C298F751A884A12001B5EAF /* JSImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C298F741A884A12001B5EAF /* JSImagePickerViewController.m */; };
 		6C62F13A1A8D6FBA007EA162 /* HSDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C62F1371A8D6FBA007EA162 /* HSDatePickerViewController.m */; };
 		6C62F13B1A8D6FBA007EA162 /* HSDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C62F1381A8D6FBA007EA162 /* HSDatePickerViewController.xib */; };
@@ -24,6 +26,10 @@
 
 /* Begin PBXFileReference section */
 		2887143DDBE69102F364C910 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C13DBD31A96543D00A83545 /* ANSpinWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSpinWheel.h; sourceTree = "<group>"; };
+		6C13DBD41A96543D00A83545 /* ANSpinWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSpinWheel.m; sourceTree = "<group>"; };
+		6C13DBD71A9654B200A83545 /* WheelImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelImageView.h; sourceTree = "<group>"; };
+		6C13DBD81A9654B200A83545 /* WheelImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelImageView.m; sourceTree = "<group>"; };
 		6C298F731A884A12001B5EAF /* JSImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSImagePickerViewController.h; sourceTree = "<group>"; };
 		6C298F741A884A12001B5EAF /* JSImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSImagePickerViewController.m; sourceTree = "<group>"; };
 		6C62F1361A8D6FBA007EA162 /* HSDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSDatePickerViewController.h; sourceTree = "<group>"; };
@@ -78,9 +84,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6C13DBD01A96543D00A83545 /* ANSpinWheel */ = {
+			isa = PBXGroup;
+			children = (
+				6C13DBD31A96543D00A83545 /* ANSpinWheel.h */,
+				6C13DBD41A96543D00A83545 /* ANSpinWheel.m */,
+			);
+			path = ANSpinWheel;
+			sourceTree = "<group>";
+		};
 		6C298F711A884A12001B5EAF /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				6C13DBD01A96543D00A83545 /* ANSpinWheel */,
 				6C62F1351A8D6FBA007EA162 /* HSDatePickerController */,
 				6C298F721A884A12001B5EAF /* JSImagePickerController */,
 			);
@@ -128,6 +144,8 @@
 		6C67B9E71A82698C0041C099 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6C13DBD71A9654B200A83545 /* WheelImageView.h */,
+				6C13DBD81A9654B200A83545 /* WheelImageView.m */,
 				6C6F9C931A8567E000EFF087 /* CameraViewController.h */,
 				6C6F9C921A8567E000EFF087 /* CameraViewController.m */,
 				6C6F9C991A8567E000EFF087 /* ReminderViewController.h */,
@@ -310,10 +328,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C13DBD91A9654B200A83545 /* WheelImageView.m in Sources */,
 				6C6F9C9A1A8567E000EFF087 /* CameraViewController.m in Sources */,
 				6C67B9E51A82696D0041C099 /* WheelVC.m in Sources */,
 				6C67B9E11A82696D0041C099 /* AppDelegate.m in Sources */,
 				6C62F13A1A8D6FBA007EA162 /* HSDatePickerViewController.m in Sources */,
+				6C13DBD61A96543D00A83545 /* ANSpinWheel.m in Sources */,
 				6C6F9C9C1A8567E000EFF087 /* ReminderViewController.m in Sources */,
 				6C298F751A884A12001B5EAF /* JSImagePickerViewController.m in Sources */,
 				6C704D361A8262CB0075BA1E /* main.m in Sources */,

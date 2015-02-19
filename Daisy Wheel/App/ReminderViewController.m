@@ -25,6 +25,7 @@
     [super viewDidAppear:animated];
     
     HSDatePickerViewController *hsdpvc = [HSDatePickerViewController new];
+    hsdpvc.delegate = self;
     [self presentViewController:hsdpvc animated:YES completion:nil];
 }
 
