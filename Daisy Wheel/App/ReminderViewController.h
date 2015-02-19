@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HSDatePickerViewController.h"
 
-@interface ReminderTableViewController : UITableViewController
+@interface ReminderViewController : UIViewController <HSDatePickerViewControllerDelegate>
 
 @end

@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
     
+    [self setNeedsStatusBarAppearanceUpdate];
+    
     self.imageView.contentMode = UIViewContentModeScaleAspectFit;
     self.imageView.backgroundColor = [UIColor colorWithRed:0.616 green:0.825 blue:1.000 alpha:1.000];
     
@@ -41,6 +43,10 @@
     JSImagePickerViewController *imagePicker = [[JSImagePickerViewController alloc] init];
     imagePicker.delegate = self;
     [imagePicker showImagePickerInController:self animated:YES];
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)didReceiveMemoryWarning

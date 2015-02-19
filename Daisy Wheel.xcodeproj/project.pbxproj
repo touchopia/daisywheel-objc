@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		5A333D6273F4B6B900F69360 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2887143DDBE69102F364C910 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6C298F751A884A12001B5EAF /* JSImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C298F741A884A12001B5EAF /* JSImagePickerViewController.m */; };
+		6C62F13A1A8D6FBA007EA162 /* HSDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C62F1371A8D6FBA007EA162 /* HSDatePickerViewController.m */; };
+		6C62F13B1A8D6FBA007EA162 /* HSDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C62F1381A8D6FBA007EA162 /* HSDatePickerViewController.xib */; };
 		6C67B9E11A82696D0041C099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C67B9D81A82696D0041C099 /* AppDelegate.m */; };
 		6C67B9E41A82696D0041C099 /* VideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C67B9DE1A82696D0041C099 /* VideoVC.m */; };
 		6C67B9E51A82696D0041C099 /* WheelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C67B9E01A82696D0041C099 /* WheelVC.m */; };
 		6C6F9C9A1A8567E000EFF087 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F9C921A8567E000EFF087 /* CameraViewController.m */; };
-		6C6F9C9C1A8567E000EFF087 /* ReminderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F9C961A8567E000EFF087 /* ReminderTableViewController.m */; };
-		6C6F9C9D1A8567E000EFF087 /* ReminderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F9C971A8567E000EFF087 /* ReminderTableViewCell.m */; };
+		6C6F9C9C1A8567E000EFF087 /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F9C961A8567E000EFF087 /* ReminderViewController.m */; };
 		6C704D361A8262CB0075BA1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C704D351A8262CB0075BA1E /* main.m */; };
 		6C704D421A8262CB0075BA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C704D401A8262CB0075BA1E /* Main.storyboard */; };
 		6C704D441A8262CB0075BA1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C704D431A8262CB0075BA1E /* Images.xcassets */; };
@@ -25,6 +26,9 @@
 		2887143DDBE69102F364C910 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C298F731A884A12001B5EAF /* JSImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSImagePickerViewController.h; sourceTree = "<group>"; };
 		6C298F741A884A12001B5EAF /* JSImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSImagePickerViewController.m; sourceTree = "<group>"; };
+		6C62F1361A8D6FBA007EA162 /* HSDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSDatePickerViewController.h; sourceTree = "<group>"; };
+		6C62F1371A8D6FBA007EA162 /* HSDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSDatePickerViewController.m; sourceTree = "<group>"; };
+		6C62F1381A8D6FBA007EA162 /* HSDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSDatePickerViewController.xib; sourceTree = "<group>"; };
 		6C67B9D71A82696D0041C099 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C67B9D81A82696D0041C099 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6C67B9DD1A82696D0041C099 /* VideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoVC.h; sourceTree = "<group>"; };
@@ -33,10 +37,8 @@
 		6C67B9E01A82696D0041C099 /* WheelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelVC.m; sourceTree = "<group>"; };
 		6C6F9C921A8567E000EFF087 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		6C6F9C931A8567E000EFF087 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		6C6F9C961A8567E000EFF087 /* ReminderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderTableViewController.m; sourceTree = "<group>"; };
-		6C6F9C971A8567E000EFF087 /* ReminderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderTableViewCell.m; sourceTree = "<group>"; };
-		6C6F9C981A8567E000EFF087 /* ReminderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderTableViewCell.h; sourceTree = "<group>"; };
-		6C6F9C991A8567E000EFF087 /* ReminderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderTableViewController.h; sourceTree = "<group>"; };
+		6C6F9C961A8567E000EFF087 /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		6C6F9C991A8567E000EFF087 /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
 		6C704D301A8262CB0075BA1E /* Daisy Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daisy Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C704D341A8262CB0075BA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C704D351A8262CB0075BA1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		6C298F711A884A12001B5EAF /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				6C62F1351A8D6FBA007EA162 /* HSDatePickerController */,
 				6C298F721A884A12001B5EAF /* JSImagePickerController */,
 			);
 			path = Vendor;
@@ -91,6 +94,16 @@
 				6C298F741A884A12001B5EAF /* JSImagePickerViewController.m */,
 			);
 			path = JSImagePickerController;
+			sourceTree = "<group>";
+		};
+		6C62F1351A8D6FBA007EA162 /* HSDatePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				6C62F1361A8D6FBA007EA162 /* HSDatePickerViewController.h */,
+				6C62F1371A8D6FBA007EA162 /* HSDatePickerViewController.m */,
+				6C62F1381A8D6FBA007EA162 /* HSDatePickerViewController.xib */,
+			);
+			path = HSDatePickerController;
 			sourceTree = "<group>";
 		};
 		6C67B9D61A82696D0041C099 /* App */ = {
@@ -117,10 +130,8 @@
 			children = (
 				6C6F9C931A8567E000EFF087 /* CameraViewController.h */,
 				6C6F9C921A8567E000EFF087 /* CameraViewController.m */,
-				6C6F9C971A8567E000EFF087 /* ReminderTableViewCell.m */,
-				6C6F9C981A8567E000EFF087 /* ReminderTableViewCell.h */,
-				6C6F9C991A8567E000EFF087 /* ReminderTableViewController.h */,
-				6C6F9C961A8567E000EFF087 /* ReminderTableViewController.m */,
+				6C6F9C991A8567E000EFF087 /* ReminderViewController.h */,
+				6C6F9C961A8567E000EFF087 /* ReminderViewController.m */,
 				6C67B9DD1A82696D0041C099 /* VideoVC.h */,
 				6C67B9DE1A82696D0041C099 /* VideoVC.m */,
 				6C67B9DF1A82696D0041C099 /* WheelVC.h */,
@@ -238,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C704D421A8262CB0075BA1E /* Main.storyboard in Resources */,
+				6C62F13B1A8D6FBA007EA162 /* HSDatePickerViewController.xib in Resources */,
 				6C704D471A8262CB0075BA1E /* LaunchScreen.xib in Resources */,
 				6C704D441A8262CB0075BA1E /* Images.xcassets in Resources */,
 			);
@@ -301,8 +313,8 @@
 				6C6F9C9A1A8567E000EFF087 /* CameraViewController.m in Sources */,
 				6C67B9E51A82696D0041C099 /* WheelVC.m in Sources */,
 				6C67B9E11A82696D0041C099 /* AppDelegate.m in Sources */,
-				6C6F9C9D1A8567E000EFF087 /* ReminderTableViewCell.m in Sources */,
-				6C6F9C9C1A8567E000EFF087 /* ReminderTableViewController.m in Sources */,
+				6C62F13A1A8D6FBA007EA162 /* HSDatePickerViewController.m in Sources */,
+				6C6F9C9C1A8567E000EFF087 /* ReminderViewController.m in Sources */,
 				6C298F751A884A12001B5EAF /* JSImagePickerViewController.m in Sources */,
 				6C704D361A8262CB0075BA1E /* main.m in Sources */,
 				6C67B9E41A82696D0041C099 /* VideoVC.m in Sources */,

@@ -44,46 +44,46 @@ import UIKit
         }
     }
     
-    @IBInspectable var firstSelectedImage: UIImage? {
+    @IBInspectable var firstSelectedImage: UIImage! {
         didSet {
-            if let image = firstSelectedImage? {
-                var tabBarItems = self.tabBar.items as [UITabBarItem]
+            if let image = firstSelectedImage {
+                var tabBarItems = self.tabBar.items as! [UITabBarItem]
                 tabBarItems[0].selectedImage = image.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
             }
         }
     }
     
-    @IBInspectable var secondSelectedImage: UIImage? {
+    @IBInspectable var secondSelectedImage: UIImage! {
         didSet {
-            if let image = secondSelectedImage? {
-                var tabBarItems = self.tabBar.items as [UITabBarItem]
+            if let image = secondSelectedImage {
+                var tabBarItems = self.tabBar.items as! [UITabBarItem]
                 tabBarItems[1].selectedImage = image.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
             }
         }
     }
     
-    @IBInspectable var thirdSelectedImage: UIImage? {
+    @IBInspectable var thirdSelectedImage: UIImage! {
         didSet {
-            if let image = thirdSelectedImage? {
-                var tabBarItems = self.tabBar.items as [UITabBarItem]
+            if let image = thirdSelectedImage {
+                var tabBarItems = self.tabBar.items as! [UITabBarItem]
                 tabBarItems[2].selectedImage = image.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
             }
         }
     }
     
-    @IBInspectable var fourthSelectedImage: UIImage? {
+    @IBInspectable var fourthSelectedImage: UIImage! {
         didSet {
-            if let image = fourthSelectedImage? {
-                var tabBarItems = self.tabBar.items as [UITabBarItem]
+            if let image = fourthSelectedImage {
+                var tabBarItems = self.tabBar.items as! [UITabBarItem]
                 tabBarItems[3].selectedImage = image.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
             }
         }
     }
     
-    @IBInspectable var fifthSelectedImage: UIImage? {
+    @IBInspectable var fifthSelectedImage: UIImage! {
         didSet {
-            if let image = fifthSelectedImage? {
-                var tabBarItems = self.tabBar.items as [UITabBarItem]
+            if let image = fifthSelectedImage {
+                var tabBarItems = self.tabBar.items as! [UITabBarItem]
                 tabBarItems[4].selectedImage = image.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate)
             }
         }
@@ -92,7 +92,7 @@ import UIKit
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        for item in self.tabBar.items as [UITabBarItem] {
+        for item in self.tabBar.items as! [UITabBarItem] {
             if let image = item.image {
                 item.image = image.imageWithColor(self.normalTint).imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
             }

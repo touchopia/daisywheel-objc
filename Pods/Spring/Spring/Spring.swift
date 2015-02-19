@@ -388,7 +388,7 @@ public class Spring : NSObject {
                     self.alpha = self.opacity
                 }
 
-            }, { finished in
+            }, completion: { finished in
 
                 completion()
                 self.resetAll()
