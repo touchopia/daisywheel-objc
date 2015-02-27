@@ -7,7 +7,7 @@
         <!--Wheel-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="CameraViewController" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="WheelViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -35,7 +35,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182" y="-380"/>
+            <point key="canvasLocation" x="264" y="-365"/>
         </scene>
         <!--Camera-->
         <scene sceneID="wg7-f3-ORb">
